@@ -1,0 +1,6 @@
+,dirt_road,cobblestone_road,asphalt_road,bluestone_road,concrete_road
+dirt_road,315,28,3,0,0
+cobblestone_road,20,334,5,0,0
+asphalt_road,1,1,521,0,0
+bluestone_road,0,0,1,514,1
+concrete_road,0,0,0,2,576

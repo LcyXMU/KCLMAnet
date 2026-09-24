@@ -1,0 +1,3 @@
+member,seed,best_epoch,best_val_accuracy,training_seconds,weights
+1,20261003,4,0.9781420826911926,823.8999548460124,/home/lcy/Series2Image/src/cnn-lstmwithattention/koa_configuration_ablation_6dataset/results/koa_p8_i2_e16/run_20260809_koa_config_ablation_deterministic_v2_seed0/fold_2/member_1_best.weights.h5
+2,20261004,6,0.9781420826911926,890.8081389459549,/home/lcy/Series2Image/src/cnn-lstmwithattention/koa_configuration_ablation_6dataset/results/koa_p8_i2_e16/run_20260809_koa_config_ablation_deterministic_v2_seed0/fold_2/member_2_best.weights.h5

@@ -1,0 +1,11 @@
+{
+  "num_heads": 4,
+  "d_model": 104,
+  "dropout_rate": 0.1384530787946883,
+  "filters": 157,
+  "kernel_size": 7,
+  "learning_rate_log10": -3.4707738335324416,
+  "weight_decay_log10": -5.55553776535399,
+  "koa_validation_accuracy": 0.9571428298950195,
+  "koa_search_seconds": 5591.2746818489395
+}

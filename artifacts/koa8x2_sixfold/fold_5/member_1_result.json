@@ -1,0 +1,8 @@
+{
+  "member": 1,
+  "seed": 20261303,
+  "best_epoch": 15,
+  "best_val_accuracy": 0.9657142758369446,
+  "training_seconds": 1869.8633127829526,
+  "weights": "/home/lcy/Series2Image/src/cnn-lstmwithattention/koa_configuration_ablation_6dataset/results/koa_p8_i2_e16/run_20260809_koa_config_ablation_deterministic_v2_seed0/fold_5/member_1_best.weights.h5"
+}

@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "mode": "saved-prediction metric recomputation; no retraining",
+  "model": "KOA-CNN-LSTM with Multi-Head Attention",
+  "koa_planets": 8,
+  "koa_iterations": 2,
+  "folds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "evaluated_datasets": [
+    "XMU 1",
+    "XMU 2",
+    "XMU 3",
+    "XMU 4",
+    "XMU 5",
+    "XMU 6"
+  ],
+  "verified_result_files": 131,
+  "verified_data_files": 0,
+  "all_saved_metrics_matched": true
+}

@@ -1,0 +1,58 @@
+{
+  "fold": 2,
+  "train_keys": [
+    "xmu_1",
+    "xmu_4",
+    "xmu_5",
+    "xmu_6"
+  ],
+  "val_keys": [
+    "xmu_3"
+  ],
+  "test_keys": [
+    "xmu_2"
+  ],
+  "hyperparameters": {
+    "num_heads": 4,
+    "d_model": 152,
+    "dropout_rate": 0.16329700979882905,
+    "filters": 101,
+    "kernel_size": 3,
+    "learning_rate_log10": -3.667442928853416,
+    "weight_decay_log10": -4.202555988008056,
+    "koa_validation_accuracy": 0.9781420826911926,
+    "koa_search_seconds": 4199.0389740400715
+  },
+  "ensemble_members": [
+    {
+      "member": 1,
+      "seed": 20261003,
+      "best_epoch": 4,
+      "best_val_accuracy": 0.9781420826911926,
+      "training_seconds": 823.8999548460124,
+      "weights": "/home/lcy/Series2Image/src/cnn-lstmwithattention/koa_configuration_ablation_6dataset/results/koa_p8_i2_e16/run_20260809_koa_config_ablation_deterministic_v2_seed0/fold_2/member_1_best.weights.h5"
+    },
+    {
+      "member": 2,
+      "seed": 20261004,
+      "best_epoch": 6,
+      "best_val_accuracy": 0.9781420826911926,
+      "training_seconds": 890.8081389459549,
+      "weights": "/home/lcy/Series2Image/src/cnn-lstmwithattention/koa_configuration_ablation_6dataset/results/koa_p8_i2_e16/run_20260809_koa_config_ablation_deterministic_v2_seed0/fold_2/member_2_best.weights.h5"
+    }
+  ],
+  "causal_smoothing_width_selected_on_validation": 1,
+  "metrics_test_raw": {
+    "accuracy": 0.983739837398374,
+    "precision": 0.983789542839607,
+    "recall": 0.983739837398374,
+    "f1_score": 0.9836526914288751
+  },
+  "metrics_test_causal": {
+    "accuracy": 0.983739837398374,
+    "precision": 0.983789542839607,
+    "recall": 0.983739837398374,
+    "f1_score": 0.9836526914288751
+  },
+  "test_sample_count": 369
+}

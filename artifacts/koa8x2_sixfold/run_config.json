@@ -1,0 +1,103 @@
+{
+  "model_name": "KOA-CNN-LSTM with Multi-Head Attention",
+  "variant": "full",
+  "attention_enabled": true,
+  "koa_enabled": true,
+  "datasets_dir": "/media/lcy/Elements SE/ubuntuFile/备份数据集/preaccdataset9.5/pvs-passive-vehicular-sensors-datasets/zijian",
+  "sensor_locations": [
+    "dashboard_left",
+    "dashboard_right",
+    "above_suspension_left",
+    "above_suspension_right",
+    "below_suspension_left",
+    "below_suspension_right"
+  ],
+  "sensor_axes": [
+    "acc_x",
+    "acc_y",
+    "acc_z",
+    "gyro_x",
+    "gyro_y",
+    "gyro_z"
+  ],
+  "input_shape": [
+    24,
+    6,
+    25,
+    6
+  ],
+  "window_rows": 600,
+  "train_stride": 150,
+  "eval_stride": 600,
+  "batch_size": 64,
+  "ensemble_seeds": 2,
+  "final_epochs": 160,
+  "final_patience": 20,
+  "koa_planets": 8,
+  "koa_iterations": 2,
+  "objective_epochs": 8,
+  "parameter_bounds": {
+    "num_heads": [
+      2,
+      6
+    ],
+    "d_model": [
+      64,
+      192
+    ],
+    "dropout_rate": [
+      0.1,
+      0.35
+    ],
+    "filters": [
+      48,
+      160
+    ],
+    "kernel_size": [
+      3,
+      7
+    ],
+    "learning_rate_log10": [
+      -4.0,
+      -3.0
+    ],
+    "weight_decay_log10": [
+      -6.0,
+      -3.5
+    ]
+  },
+  "default_hyperparameters": {
+    "num_heads": 4,
+    "d_model": 128,
+    "dropout_rate": 0.2,
+    "filters": 96,
+    "kernel_size": 5,
+    "learning_rate_log10": -3.5,
+    "weight_decay_log10": -4.5
+  },
+  "primary_ablation_metric": "raw window-level ensemble prediction without smoothing",
+  "causal_smoothing_widths": [
+    1,
+    3,
+    5,
+    7,
+    11
+  ],
+  "selected_folds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "search_algorithm": "koa",
+  "search_seed": 0,
+  "candidate_seed_policy": "fixed within each fold",
+  "candidate_seed_offset": 50000,
+  "deterministic_ops": true,
+  "tf_deterministic_ops": "1",
+  "tf_cudnn_deterministic": "1",
+  "tf_enable_onednn_opts": "0",
+  "search_evaluations": 16
+}

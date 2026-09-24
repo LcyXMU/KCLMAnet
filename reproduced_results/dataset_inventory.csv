@@ -1,0 +1,19 @@
+dataset,file,bytes
+XMU 1,dataset_labels.csv,2619179
+XMU 1,dataset_mpu_left.csv,98668381
+XMU 1,dataset_mpu_right.csv,97582666
+XMU 2,dataset_labels.csv,2216309
+XMU 2,dataset_mpu_left.csv,83709224
+XMU 2,dataset_mpu_right.csv,83275473
+XMU 3,dataset_labels.csv,2200909
+XMU 3,dataset_mpu_left.csv,79170268
+XMU 3,dataset_mpu_right.csv,78361132
+XMU 4,dataset_labels.csv,2503739
+XMU 4,dataset_mpu_left.csv,93008562
+XMU 4,dataset_mpu_right.csv,92034202
+XMU 5,dataset_labels.csv,2308239
+XMU 5,dataset_mpu_left.csv,88102540
+XMU 5,dataset_mpu_right.csv,88022195
+XMU 6,dataset_labels.csv,2105539
+XMU 6,dataset_mpu_left.csv,74402056
+XMU 6,dataset_mpu_right.csv,73296705

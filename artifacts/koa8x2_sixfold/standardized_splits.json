@@ -1,0 +1,94 @@
+{
+  "splits": [
+    {
+      "fold": 1,
+      "train": [
+        "xmu_3",
+        "xmu_4",
+        "xmu_5",
+        "xmu_6"
+      ],
+      "val": [
+        "xmu_2"
+      ],
+      "test": [
+        "xmu_1"
+      ]
+    },
+    {
+      "fold": 2,
+      "train": [
+        "xmu_1",
+        "xmu_4",
+        "xmu_5",
+        "xmu_6"
+      ],
+      "val": [
+        "xmu_3"
+      ],
+      "test": [
+        "xmu_2"
+      ]
+    },
+    {
+      "fold": 3,
+      "train": [
+        "xmu_1",
+        "xmu_2",
+        "xmu_5",
+        "xmu_6"
+      ],
+      "val": [
+        "xmu_4"
+      ],
+      "test": [
+        "xmu_3"
+      ]
+    },
+    {
+      "fold": 4,
+      "train": [
+        "xmu_1",
+        "xmu_2",
+        "xmu_3",
+        "xmu_6"
+      ],
+      "val": [
+        "xmu_5"
+      ],
+      "test": [
+        "xmu_4"
+      ]
+    },
+    {
+      "fold": 5,
+      "train": [
+        "xmu_1",
+        "xmu_2",
+        "xmu_3",
+        "xmu_4"
+      ],
+      "val": [
+        "xmu_6"
+      ],
+      "test": [
+        "xmu_5"
+      ]
+    },
+    {
+      "fold": 6,
+      "train": [
+        "xmu_2",
+        "xmu_3",
+        "xmu_4",
+        "xmu_5"
+      ],
+      "val": [
+        "xmu_1"
+      ],
+      "test": [
+        "xmu_6"
+      ]
+    }
+  ]
+}
