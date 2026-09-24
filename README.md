@@ -1,12 +1,6 @@
-# KOA 8x2 and XMU1-XMU6 reproducibility package
+# KCLMAnet reproducibility package
 
-This folder collects the KOA-CNN-LSTM with Multi-Head Attention source code, the selected KOA 8x2 six-fold artifacts, and the self-collected XMU1-XMU6 datasets.
-
-## Important scope statement
-
-The reported main result uses **XMU1-XMU6** under six-fold leave-one-dataset-out evaluation.
-
-The default command does **not** retrain or search hyperparameters. It independently recomputes every fold metric from the saved test predictions, checks those metrics against the saved records, verifies the result-file checksums, and regenerates the aggregate numeric outputs. This reproduces the existing numerical result exactly, but it must be described as **saved-prediction result reproduction**, not as an independent training rerun.
+This folder collects the KOA-CNN-LSTM with Multi-Head Attention source code, and the self-collected XMU1-XMU6 datasets.
 
 ## One-command reproduction
 
